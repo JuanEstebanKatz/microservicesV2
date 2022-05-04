@@ -2,33 +2,34 @@ package com.v2.microservices.limitsservice.bean;
 
 public class Limits {
 
-	int minumun;
-	int maximun;
+	int minimum;
+	int maximum;
 
-	public int getMinumun() {
-		return minumun;
+	public int getMinimum() {
+		return minimum;
 	}
 
-	public void setMinumun(int minumun) {
-		this.minumun = minumun;
+	public void setMinimum(int minimum) {
+		this.minimum = minimum;
 	}
 
-	public int getMaximun() {
-		return maximun;
+	public int getMaximum() {
+		return maximum;
 	}
 
-	public void setMaximun(int maximun) {
-		this.maximun = maximun;
+	public void setMaximum(int maximum) {
+		this.maximum = maximum;
 	}
 
-	public Limits(int minumun, int maximun) {
+	public Limits(int minimum, int maximum) {
 		super();
-		this.minumun = minumun;
-		this.maximun = maximun;
+		this.minimum = minimum;
+		this.maximum = maximum;
 	}
 
 	public Limits() {
 		super();
+		// TODO Auto-generated constructor stub
 	}
 
 }

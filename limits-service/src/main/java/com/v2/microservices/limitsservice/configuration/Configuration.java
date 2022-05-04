@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 public class Configuration {
 
 	private int minimum;
-	private int maximun;
+	private int maximum;
 
 	public int getMinimum() {
 		return minimum;
@@ -25,12 +25,12 @@ public class Configuration {
 		this.minimum = minimum;
 	}
 
-	public int getMaximun() {
-		return maximun;
+	public int getMaximum() {
+		return maximum;
 	}
 
-	public void setMaximun(int maximun) {
-		this.maximun = maximun;
+	public void setMaximum(int maximum) {
+		this.maximum = maximum;
 	}
 
 }
